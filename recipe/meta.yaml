@@ -1,5 +1,5 @@
 {% set name = "casefy" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/casefy-{{ version }}.tar.gz
-  sha256: bc99428475c2089c5f6a21297b4cfe4e83dff132cf3bb06655ddcb90632af1ed
+  sha256: 849d6e0f80506fac70ab8e18999a4ca1eb7d8f70941682383d64aa22a7497f8f
 
 build:
   noarch: python
